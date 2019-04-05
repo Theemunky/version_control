@@ -17,6 +17,20 @@ li {
     display: inline;
     padding: 10px 40px;
 }
-body {
-    
+body p {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+
+body h4 {
+    font-family: cursive;
+    color: orange;
+    padding: 30px;
+}
+
+body a {
+    font-size: 50px;
+    padding: 20px;
+    font-family: fantasy;
 }
