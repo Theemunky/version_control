@@ -13,10 +13,41 @@ header {
     background-color: grey;
 }
 
-li {
+body li {
     display: inline;
     padding: 10px 40px;
-}
-body {
     
 }
+body p {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+
+body h4 {
+    font-family: cursive;
+    color: orange;
+    padding: 30px;
+}
+
+body a {
+    font-size: 50px;
+    padding: 20px;
+    font-family: fantasy;
+}
+
+#small_Link{
+    color: blue;
+    font-size: 20px;
+    padding: 5px;
+    font-family: Elephant; ;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 3.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+
