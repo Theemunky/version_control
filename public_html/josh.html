@@ -4,44 +4,53 @@
     <meta charset="UTF-8">
     <title>Josh Page</title>
     <link rel="stylesheet" type="text/css"
-          href="main.css">
+          href="../assets/main.css">
+    <script
+            src="https://code.jquery.com/jquery-3.4.0.js"
+            integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+            crossorigin="anonymous"></script>
+    <style>
+        .josh_table {
+            float: right;
+            margin: 40px;
+            border-collapse: collapse;
+            width: auto;
+            color: black;
+            font-size: 15px;
+            padding: 5px;
+            font-family: "Architects Daughter";
+        }
+        .josh_header {
+            font-size: 20px;
+            background-color: royalblue;
+            color: aliceblue;
+            border: 3px solid #dddddd;
+            text-align: center;
+            padding: 10px;
+        }
+        td {
+            border: 3px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+    </style>
 </head>
 <center><header>
     <ul class="nav">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="../index.html">Home</a></li>
         <li><a href="josh.html">Josh Page</a></li>
         <li><a href="chris.html">Chris Page</a></li>
     </ul>
 </header></center>
 <body>
 
-<h4>
-    I thought that my forked repo would automatically be updated with the content of your origin repo. This is not the case.
-    My fork only showed my latest contributions. I had to perform a pull request from yours to mine.
-    <a href="https://stackoverflow.com/questions/20984802/how-can-i-keep-my-fork-in-sync-without-adding-a-separate-remote/21131381#21131381"
-    id="small_Link">
-        I followed this link
-    </a>
-    One thing I found interesting is I pulled your dev branch into my master. SO, this tells us we have the option of choosing which of our branches
-    we want to merge regardless of mat
-    ching names.
-    What I should have done was created a branch in my own repo called dev. Then I could have pulled your dev branch to
-    my dev branch. But because my repo still only had master, I chose it to and pulled your dev branch to it.
 
 
-    This makes sense though, because it allows us personal control over our own updates.. and when we are comfortable with
-    it we submit pull requests. For example this request is going to be saying "pull gainey/master to mullins/dev" ..
-    Then when you are confident that the dev branch is compatible. merge master into dev.. again check that dev is
-    working to your liking. If so THEN merge dev into master.
-
-    This is the important for us to know - we should never just merge updates into a "live" program (in our example the master branch)
-    and the reason is we want to make sure that merging them is smooth. For example what if we had a program out for a customer
-    and we were working on an update and we pushed the update live. (we merged the dev to the master) and it crashes!! ahh!
-    Good practice is testing the merges together first on the dev branch -> hence we merge master TO dev.. verify no issues
-    Then we merge dev back to master.
-
-    I also was able to see your updates in the commit history! perfect bro!!
-</h4>
 </body>
-
+    <script  type="text/javascript" src="../js/Utils.js"></script>
+    <script  type="text/javascript" src="../js/table_play.js"></script>
 </html>
