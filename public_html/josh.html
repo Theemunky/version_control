@@ -16,23 +16,31 @@
 <body>
 
 <h4>
-    I have made a few simple commits and copy/pasted your header for now. Look at the commit history and
-    explore how it looks. You should be able to see what changed at each commit and the message with it.
-    I forked your repo. Which basically means that I have cloned your repo into my own github. I then cloned that fork on
-    my local machine. I have made the commits on my local repo. I am going to push the commits to the remote forked repo.
-    Once I do that, I will send you whats called a "pull request" and what this means is you will be "pulling" my changes
-    into the origin repo. So my added changes will then be live in yours.
+    I thought that my forked repo would automatically be updated with the content of your origin repo. This is not the case.
+    My fork only showed my latest contributions. I had to perform a pull request from yours to mine.
+    <a href="https://stackoverflow.com/questions/20984802/how-can-i-keep-my-fork-in-sync-without-adding-a-separate-remote/21131381#21131381"
+    id="small_Link">
+        I followed this link
+    </a>
+    One thing I found interesting is I pulled your dev branch into my master. SO, this tells us we have the option of choosing which of our branches
+    we want to merge regardless of matching names.
+    What I should have done was created a branch in my own repo called dev. Then I could have pulled your dev branch to
+    my dev branch. But because my repo still only had master, I chose it to and pulled your dev branch to it.
 
-    If you successfully do this and can see all my changes..  then we should try making another branch (we will
-    call it "dev" for example.. so we would have a master branch and a dev branch). So you would make a dev branch..
-    make some edits of your own.. commit and push those changes to the remote dev branch
-    and then I will fork it and repeat the process...You will pull my commits again but this time to your dev origin branch
-    and once you are satisfied. You will merge the branches.
 
-    This link is excellent :
+    This makes sense though, because it allows us personal control over our own updates.. and when we are comfortable with
+    it we submit pull requests. For example this request is going to be saying "pull gainey/master to mullins/dev" ..
+    Then when you are confident that the dev branch is compatible. merge master into dev.. again check that dev is
+    working to your liking. If so THEN merge dev into master.
 
+    This is the important for us to know - we should never just merge updates into a "live" program (in our example the master branch)
+    and the reason is we want to make sure that merging them is smooth. For example what if we had a program out for a customer
+    and we were working on an update and we pushed the update live. (we merged the dev to the master) and it crashes!! ahh!
+    Good practice is testing the merges together first on the dev branch -> hence we merge master TO dev.. verify no issues
+    Then we merge dev back to master.
+
+    I also was able to see your updates in the commit history! perfect bro!!
 </h4>
-<a href="https://youtu.be/ugN-IYV1NTM">This video is very good. Do check it out when you have time.</a>
 </body>
 
 </html>
